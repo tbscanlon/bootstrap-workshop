@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Harold's House of Horse</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Harold's House of Horse</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li class="active"><a href="#">Order</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Place an Order</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-responsive center-block" src="logo.png" alt="Logo">
+        </div>
+
+        <div class="col-md-8">
+          <form action="#" method="get">
+            <div class="form-group">
+              <label for="name">Name:
+                <input class="form-control" type="text" name="name" value="">
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="Address">Address:
+                <textarea class="form-control" rows="4" name="address"></textarea>
+              </label>
+            </div>
+
+            <div class="form-group">
+              <span>Select your Items:</span>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Horse Steak</label>
+              </div>
+
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Horse Burger</label>
+              </div>
+
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Horse Cutlets</label>
+              </div>
+
+              <input type="submit" class="btn btn-info" name="order" value="Submit Order">
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
